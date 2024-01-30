@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/x-icon" href="img/calculator.png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&display=swap" rel="stylesheet">
+  <title>Calculator</title>
+
+</head>
+
+<body>
+
+  <main>
+    <section class="logo">
+      <div>
+        <h1>Calculator</h1>
+      </div>
+    </section>
+    <div class="screen">
+      <label for="screen" class="visuallyHidden">Screen</label>
+      <input type="text" id="screen" disabled>
+    </div>
+    <div class="btnInput">
+      <button class="btn hollow" data-val="7">7</button>
+      <button class="btn hollow" data-val="8">8</button>
+      <button class="btn hollow" data-val="9">9</button>
+      <button class="filled" id="delBtn">Del</button>
+      <button class="btn hollow" data-val="4">4</button>
+      <button class="btn hollow" data-val="5">5</button>
+      <button class="btn hollow" data-val="6">6</button>
+      <button class="btn hollow" data-val="+">+</button>
+      <button class="btn hollow" data-val="1">1</button>
+      <button class="btn hollow" data-val="2">2</button>
+      <button class="btn hollow" data-val="3">3</button>
+      <button class="btn hollow" data-val="-">-</button>
+      <button class="btn hollow" data-val="." data-val2="0.">.</button>
+      <button class="btn hollow" data-val="0">0</button>
+      <button class="btn hollow" data-val="/">/</button>
+      <button class="btn hollow" data-val="*">x</button>
+      <button class="filled" id="resetBtn">AC</button>
+      <button class="equalBtn" id="equalBtn">=</button>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
