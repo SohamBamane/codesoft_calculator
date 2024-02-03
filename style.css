@@ -174,3 +174,52 @@ button {
 button:hover {
     animation: buttonHover 0.7s ease-in-out infinite;
 }
+
+@media only screen and (max-width: 600px) {
+    body {
+        margin: 27px 0;
+    }
+
+    main {
+        width: 325px;
+    }
+
+    button {
+        font-size: 32px;
+        border-radius: 5px;
+    }
+
+    .screen {
+        height: 88px;
+    }
+
+    #screen {
+        font-size: var(--fs-screen-mobile);
+        padding: 0 25px 0;
+    }
+
+    .btnInput {
+        padding: 24px;
+        gap: 17px 13px;
+    }
+
+    .hollow {
+        padding-top: 8px;
+    }
+
+    .filled {
+        font-size: 20px;
+        padding-top: 2px;
+    }
+
+    #equalBtn {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 340px) {
+
+    main {
+        width: calc((100vw) - 26px);
+    }
+}
